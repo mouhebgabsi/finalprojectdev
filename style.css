@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+.joke-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+#setup {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#punchline {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background-color: #ff6600;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc5200;
+}
+
+#status {
+  margin-top: 15px;
+  color: red;
+}
